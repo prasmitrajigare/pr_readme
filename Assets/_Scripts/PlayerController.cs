@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
 	{
 		// Preventing mobile devices going in to sleep mode 
 		//(actual problem if only accelerometer input is used)
+		//COmment
 		Screen.sleepTimeout = SleepTimeout.NeverSleep;
 	}
 	
